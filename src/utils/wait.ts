@@ -1,6 +1,10 @@
 export const wait = async (ms: number) =>
   new Promise((resolve) => setTimeout(resolve, ms));
 
+export function foo() {
+  console.log("allo");
+}
+
 export function superLongFunction() {
   const a = 3;
   if (a) {
